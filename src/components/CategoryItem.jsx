@@ -1,4 +1,4 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 
 const CategoryItem = ({
     idCategory: id,
@@ -6,6 +6,7 @@ const CategoryItem = ({
     strCategoryThumb: image,
     strCategoryDescription: description
 }) => {
+
     return (
         <div className="card">
             <div className="card-image">
